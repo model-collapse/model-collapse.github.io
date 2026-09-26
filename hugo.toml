@@ -1,0 +1,73 @@
+baseURL = "https://model-collapse.github.io/"
+languageCode = "en-us"
+title = "Charlie Yang"
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 8
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  mainSections = ["beginners", "professionals"]
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Charlie Yang 👋"
+    Content = """
+I'm an AI / ML engineer. I build and evaluate decision-making models, and I write about machine learning here.
+
+This blog runs on **two tracks** — pick the one that fits you:
+
+- 🌱 **[For AI Beginners](/beginners/)** — plain-language explainers of ML concepts, with intuition and examples first.
+- 🛠️ **[For AI Professionals](/professionals/)** — deeper technical write-ups: model architecture, evaluation, benchmarks, and lessons from real projects.
+
+New here? Start with the beginners track. Building things? Head to the professionals track.
+"""
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/model-collapse/"
+  [[params.socialIcons]]
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/model-collapse"
+  [[params.socialIcons]]
+    name = "rss"
+    title = "RSS"
+    url = "/index.xml"
+
+[[menu.main]]
+  identifier = "beginners"
+  name = "For AI Beginners"
+  url = "/beginners/"
+  weight = 1
+[[menu.main]]
+  identifier = "professionals"
+  name = "For AI Professionals"
+  url = "/professionals/"
+  weight = 2
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup.highlight]
+  noClasses = false
+  style = "github"
