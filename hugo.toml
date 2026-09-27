@@ -21,12 +21,14 @@ enableEmoji = true
   [params.homeInfoParams]
     Title = "Hi, I'm Charlie Yang 👋"
     Content = """
-I'm an AI / ML engineer. I build and evaluate decision-making models, and I write about machine learning here.
+I'm a machine-learning engineer at **Amazon Web Services**, working on **OpenSearch** — search, retrieval, and neural / vector search at scale. Based in Shanghai. 🇨🇳
 
-This blog runs on **two tracks** — pick the one that fits you:
+The thread through my work is the same one that runs through good search: **given a query and some candidates, make the right call — fast, and for the right reasons.** Lately that's pulled me toward **decision-making models and AI agents** — small, *typed* decisions (choose one, score, yes/no) that have to be quick, calibrated, and honestly evaluated. My open-source [JevBench](https://github.com/model-collapse/jev-bench) benchmark grew out of exactly that itch.
 
-- 🌱 **[For AI Beginners](/beginners/)** — plain-language explainers of ML concepts, with intuition and examples first.
-- 🛠️ **[For AI Professionals](/professionals/)** — deeper technical write-ups: model architecture, evaluation, benchmarks, and lessons from real projects.
+I write about all of it here, on **two tracks** — pick the one that fits you:
+
+- 🌱 **[For AI Beginners](/beginners/)** — plain-language explainers of ML concepts, intuition and examples first, no jargon left undefined.
+- 🛠️ **[For AI Professionals](/professionals/)** — deeper technical write-ups: retrieval, model architecture, calibration, benchmarks, and lessons from shipping real systems.
 
 New here? Start with the beginners track. Building things? Head to the professionals track.
 """
