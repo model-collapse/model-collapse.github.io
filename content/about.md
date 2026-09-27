@@ -12,5 +12,5 @@ I'm **Charlie Yang**, an AI / ML engineer. I work on decision-making models — 
 > _Placeholder bio — edit `content/about.md` to add your background, interests, and highlights._
 
 ## Elsewhere
-- **LinkedIn:** [linkedin.com/in/model-collapse](https://www.linkedin.com/in/model-collapse/)
+- **LinkedIn:** [linkedin.com/in/charlieyangnju](https://www.linkedin.com/in/charlieyangnju/)
 - **GitHub:** [github.com/model-collapse](https://github.com/model-collapse)
